@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { SiteHeader } from "@/components/SiteHeader";
 
 const PHOTO = "/images/about-photo.png";
 const ACCENT = "#ff5e36";
@@ -92,33 +92,7 @@ const experience = [
 export default function AboutPage() {
   return (
     <div className="bg-paper text-ink">
-      <header className="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-8 sm:px-10">
-        <Link href="/" className="font-grand-hotel text-[28px] sm:text-[32px]">
-          Dileep Thotakura
-        </Link>
-        <nav className="flex items-center gap-10">
-          <Link href="/" className="text-[13px] font-semibold uppercase tracking-[0.14em] text-ink/45 transition-colors hover:text-ink">
-            Home
-          </Link>
-          <span className="text-[13px] font-semibold uppercase tracking-[0.14em] text-ink">
-            About Me
-          </span>
-          <Link
-            href="/resume"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-[13px] font-semibold uppercase tracking-[0.14em] text-ink/45 transition-colors hover:text-ink"
-          >
-            Resume
-          </Link>
-          <Link
-            href="/contact"
-            className="text-[13px] font-semibold uppercase tracking-[0.14em] text-ink/45 transition-colors hover:text-ink"
-          >
-            Contact
-          </Link>
-        </nav>
-      </header>
+      <SiteHeader current="about" />
 
       <section className="mx-auto flex max-w-[1280px] flex-col gap-14 px-6 pb-[82px] pt-6 sm:px-10 lg:flex-row lg:items-center">
         <div className="flex w-full flex-col gap-8 fade-up lg:max-w-[860px]">

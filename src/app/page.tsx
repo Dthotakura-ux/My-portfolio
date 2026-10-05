@@ -1,9 +1,9 @@
-import Link from "next/link";
 import { CustomCursor } from "@/components/CustomCursor";
 import { FeaturedWorkCarousel } from "@/components/FeaturedWorkCarousel";
 import { MagneticLink } from "@/components/MagneticLink";
 import { MentorshipOrbit } from "@/components/MentorshipOrbit";
 import { PracticeJourney } from "@/components/PracticeJourney";
+import { SiteHeader } from "@/components/SiteHeader";
 import { projects } from "@/data/projects";
 import { awards, certifications, companies } from "@/data/credentials";
 
@@ -51,37 +51,9 @@ export default function Home() {
       <div className="grain-overlay" />
 
       {/* Nav */}
-      <header id="top" className="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-8 sm:px-10">
-        <p className="font-grand-hotel text-[28px] sm:text-[32px]">Dileep Thotakura</p>
-        <nav className="flex items-center gap-10">
-          <Link
-            href="#top"
-            className="link-underline text-[13px] font-semibold uppercase tracking-[0.14em] text-ink"
-          >
-            Home
-          </Link>
-          <Link
-            href="/about"
-            className="link-underline text-[13px] font-semibold uppercase tracking-[0.14em] text-ink/45 transition-colors hover:text-ink"
-          >
-            About Me
-          </Link>
-          <Link
-            href="/resume"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link-underline text-[13px] font-semibold uppercase tracking-[0.14em] text-ink/45 transition-colors hover:text-ink"
-          >
-            Resume
-          </Link>
-          <Link
-            href="/contact"
-            className="link-underline text-[13px] font-semibold uppercase tracking-[0.14em] text-ink/45 transition-colors hover:text-ink"
-          >
-            Contact
-          </Link>
-        </nav>
-      </header>
+      <div id="top">
+        <SiteHeader current="home" />
+      </div>
 
       {/* Hero */}
       <section className="mx-auto max-w-[1280px] px-6 pb-16 pt-10 sm:px-10">
@@ -94,7 +66,7 @@ export default function Home() {
               </span>
             </p>
 
-            <h1 className="mt-6 font-serif text-[54px] italic leading-[1.05] tracking-[-0.02em] sm:text-[70px] md:text-[82px] lg:text-[57px] xl:text-[70px]">
+            <h1 className="mt-6 font-serif text-[38px] italic leading-[1.05] tracking-[-0.02em] sm:text-[70px] md:text-[82px] lg:text-[57px] xl:text-[70px]">
               {heroLines.map((line, lineIndex) => (
                 <span key={lineIndex} className="flex flex-nowrap gap-x-4 whitespace-nowrap">
                   {line.map((word, wordIndex) => (

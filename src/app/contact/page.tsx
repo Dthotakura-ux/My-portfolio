@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { ContactForm } from "@/components/ContactForm";
 import { MagneticLink } from "@/components/MagneticLink";
+import { SiteHeader } from "@/components/SiteHeader";
 
 const ACCENT = "#ff5e36";
 
@@ -13,32 +13,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <div className="bg-paper text-ink">
-      <header className="mx-auto flex max-w-[1280px] items-center justify-between px-6 py-8 sm:px-10">
-        <Link href="/" className="font-grand-hotel text-[28px] sm:text-[32px]">
-          Dileep Thotakura
-        </Link>
-        <nav className="flex items-center gap-10">
-          <Link
-            href="/"
-            className="text-[13px] font-semibold uppercase tracking-[0.14em] text-ink/45 transition-colors hover:text-ink"
-          >
-            Home
-          </Link>
-          <Link
-            href="/about"
-            className="text-[13px] font-semibold uppercase tracking-[0.14em] text-ink/45 transition-colors hover:text-ink"
-          >
-            About Me
-          </Link>
-          <Link
-            href="/resume"
-            className="text-[13px] font-semibold uppercase tracking-[0.14em] text-ink/45 transition-colors hover:text-ink"
-          >
-            Resume
-          </Link>
-          <span className="text-[13px] font-semibold uppercase tracking-[0.14em] text-ink">Contact</span>
-        </nav>
-      </header>
+      <SiteHeader current="contact" />
 
       <main className="mx-auto flex max-w-[1280px] flex-col gap-14 px-6 pb-24 pt-6 sm:px-10">
         <div className="flex flex-col gap-4 fade-up">

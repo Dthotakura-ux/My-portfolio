@@ -253,7 +253,7 @@ export default function SmartScmPage() {
           </div>
 
           <SubHeading accent={ACCENT}>Progressive disclosure</SubHeading>
-          <div className="grid grid-cols-5 gap-4 rounded-[10px] bg-[#f5f5f5] p-6 sm:gap-6 sm:p-8">
+          <div className="grid grid-cols-2 gap-4 rounded-[10px] bg-[#f5f5f5] p-6 sm:grid-cols-5 sm:gap-6 sm:p-8">
             <ScenarioColumn
               title="UX Scenario"
               items={[

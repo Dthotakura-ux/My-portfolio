@@ -45,7 +45,7 @@ export default function ResumePage() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#e7ebf3] py-10 print:bg-white print:py-0">
+    <div className="min-h-screen bg-[#e7ebf3] px-4 py-10 sm:px-6 lg:px-0 print:bg-white print:px-0 print:py-0">
       <style>{`
         @media print {
           @page {
@@ -76,9 +76,12 @@ export default function ResumePage() {
         </button>
       </div>
 
-      <div className="mx-auto flex max-w-[1050px] overflow-hidden rounded-[18px] bg-white shadow-2xl print:max-w-none print:rounded-none print:shadow-none">
+      <div className="mx-auto flex max-w-[1050px] flex-col overflow-hidden rounded-[18px] bg-white shadow-2xl lg:flex-row print:max-w-none print:flex-row print:rounded-none print:shadow-none">
         {/* Sidebar */}
-        <aside className="flex w-[300px] shrink-0 flex-col gap-8 p-8 text-white" style={{ backgroundColor: NAVY }}>
+        <aside
+          className="flex w-full flex-col gap-8 p-8 text-white lg:w-[300px] lg:shrink-0 print:w-[300px] print:shrink-0"
+          style={{ backgroundColor: NAVY }}
+        >
           <div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
@@ -167,7 +170,7 @@ export default function ResumePage() {
         </aside>
 
         {/* Content */}
-        <main className="flex flex-1 flex-col gap-9 bg-[#f7f8fb] p-9">
+        <main className="flex flex-1 flex-col gap-9 bg-[#f7f8fb] p-5 sm:p-9">
           {/* Professional Summary */}
           <section className="flex flex-col gap-4">
             <div className="flex items-center justify-between">

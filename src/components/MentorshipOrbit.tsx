@@ -39,7 +39,11 @@ export function MentorshipOrbit() {
       className="flex flex-1 flex-col items-center justify-center gap-6 border border-hairline px-8 py-14 text-center"
       onMouseLeave={() => setHovered(null)}
     >
-      <div className="relative" style={{ width: CANVAS_W, height: CANVAS_H }}>
+      <div className="h-[187px] w-[302px] overflow-hidden sm:h-[260px] sm:w-[420px]">
+      <div
+        className="relative origin-top-left scale-[0.72] sm:scale-100"
+        style={{ width: CANVAS_W, height: CANVAS_H }}
+      >
         {MENTEES.map((m, i) => (
           <div
             key={m.name}
@@ -122,6 +126,7 @@ export function MentorshipOrbit() {
             </div>
           );
         })}
+      </div>
       </div>
 
       <div>
