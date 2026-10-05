@@ -107,12 +107,15 @@ export default function ResumePage() {
               <Icon name="phone" className="size-[15px] shrink-0 text-[#8fb4ff]" />
               +91 9989554354 / 7670937716
             </div>
-            <div className="flex items-center gap-3 text-white/80">
-              <span className="flex size-[15px] shrink-0 items-center justify-center rounded-[3px] bg-[#8fb4ff] text-[9px] font-bold text-[#0b1e3f]">
-                in
-              </span>
-              linkedin.com/in/dileepchowdary
-            </div>
+            <a
+              href="https://uxdt.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 text-white/80 transition-colors hover:text-white"
+            >
+              <Icon name="link" className="size-[15px] shrink-0 text-[#8fb4ff]" />
+              uxdt.in
+            </a>
           </div>
 
           <div className="border-t border-white/10 pt-6">

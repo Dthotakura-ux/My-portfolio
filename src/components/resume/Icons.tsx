@@ -26,7 +26,8 @@ export type IconName =
   | "phone"
   | "pin"
   | "check"
-  | "map";
+  | "map"
+  | "link";
 
 export function Icon({ name, className }: { name: IconName; className?: string }) {
   switch (name) {
@@ -161,6 +162,13 @@ export function Icon({ name, className }: { name: IconName; className?: string }
         <svg {...base} className={className}>
           <path d="M9 4L3.5 6v14L9 18l6 2 5.5-2V4L15 6 9 4z" />
           <path d="M9 4v14M15 6v14" />
+        </svg>
+      );
+    case "link":
+      return (
+        <svg {...base} className={className}>
+          <path d="M14 10l6-6M20 4h-5M20 4v5" />
+          <path d="M11 6H7a3 3 0 00-3 3v8a3 3 0 003 3h8a3 3 0 003-3v-4" />
         </svg>
       );
     default:
