@@ -22,13 +22,13 @@ type Mentee = {
 
 const MENTEES: Mentee[] = [
   { name: "Aditi Rao", role: "Junior UX Designer", company: "Evoke Technologies", skills: ["Wireframing", "User Research"], initials: "AR", color: "#ff5e36", x: 66, y: 82, r: 34, duration: 3.2, delay: 0 },
-  { name: "Rohan Mehta", role: "Product Design Intern", company: "Evoke Technologies", skills: ["Prototyping", "Figma"], initials: "RM", color: "#176b00", x: 172, y: 44, r: 28, duration: 2.8, delay: 0.3 },
-  { name: "Sneha Kapoor", role: "UX Researcher", company: "ETOE Global", skills: ["User Interviews", "Synthesis"], initials: "SK", color: "#be2bbb", x: 278, y: 78, r: 37, duration: 3.6, delay: 0.6 },
-  { name: "Kabir Singh", role: "Visual Designer", company: "Huetint Software", skills: ["Visual Design", "Branding"], initials: "KS", color: "#552ed0", x: 372, y: 50, r: 26, duration: 3.0, delay: 0.9 },
-  { name: "Ananya Iyer", role: "Junior Product Designer", company: "Evoke Technologies", skills: ["Design Systems", "Interaction"], initials: "AI", color: "#0891b2", x: 96, y: 190, r: 30, duration: 3.4, delay: 0.2 },
-  { name: "Farhan Ali", role: "Interaction Designer", company: "ETOE Global", skills: ["Motion Design", "Prototyping"], initials: "FA", color: "#d97706", x: 208, y: 216, r: 38, duration: 2.6, delay: 0.5 },
-  { name: "Meera Nair", role: "UX Design Intern", company: "Evoke Technologies", skills: ["Usability Testing", "Wireframing"], initials: "MN", color: "#0d9488", x: 316, y: 194, r: 25, duration: 3.8, delay: 0.8 },
-  { name: "Vikram Joshi", role: "Associate Product Designer", company: "Huetint Software", skills: ["Design Systems", "UX Strategy"], initials: "VJ", color: "#c026d3", x: 396, y: 224, r: 29, duration: 3.1, delay: 1.1 },
+  { name: "Srikanth Kyatham", role: "Product Design Intern", company: "Evoke Technologies", skills: ["Prototyping", "Figma"], initials: "SK", color: "#176b00", x: 172, y: 44, r: 28, duration: 2.8, delay: 0.3 },
+  { name: "Sagar", role: "UX Researcher", company: "ETOE Global", skills: ["User Interviews", "Synthesis"], initials: "SG", color: "#be2bbb", x: 278, y: 78, r: 37, duration: 3.6, delay: 0.6 },
+  { name: "Arun Kumar", role: "Visual Designer", company: "Huetint Software", skills: ["Visual Design", "Branding"], initials: "AK", color: "#552ed0", x: 372, y: 50, r: 26, duration: 3.0, delay: 0.9 },
+  { name: "Hamza Abdhulla", role: "Junior Product Designer", company: "Evoke Technologies", skills: ["Design Systems", "Interaction"], initials: "HA", color: "#0891b2", x: 96, y: 190, r: 30, duration: 3.4, delay: 0.2 },
+  { name: "Nitheesh Gazool", role: "Interaction Designer", company: "ETOE Global", skills: ["Motion Design", "Prototyping"], initials: "NG", color: "#d97706", x: 208, y: 216, r: 38, duration: 2.6, delay: 0.5 },
+  { name: "Narendra", role: "UX Design Intern", company: "Evoke Technologies", skills: ["Usability Testing", "Wireframing"], initials: "N", color: "#0d9488", x: 316, y: 194, r: 25, duration: 3.8, delay: 0.8 },
+  { name: "Prasad Punnam", role: "Associate Product Designer", company: "Huetint Software", skills: ["Design Systems", "UX Strategy"], initials: "PP", color: "#c026d3", x: 396, y: 224, r: 29, duration: 3.1, delay: 1.1 },
 ];
 
 export function MentorshipOrbit() {
