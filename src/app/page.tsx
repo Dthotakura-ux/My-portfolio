@@ -86,14 +86,17 @@ export default function Home() {
               className="fade-up mt-10 max-w-[700px] text-[16px] leading-[30px] text-ink/70"
               style={{ animationDelay: "420ms" }}
             >
-              With <span className="font-semibold text-ink">8+ years of experience</span>,
+              With <span className="font-semibold text-ink">9+ years of experience</span>,
               I specialise in uncovering and solving complex design and real
               problems across digital ecosystems. I work closely with Product
               Owners and cross-functional teams, often as an SME, to define UX
-              strategies grounded in business goals and user needs. Beyond
-              execution, I build design practice — scaling AI-native
-              workflows with tools like Claude, and converting early leads
-              and POCs into signed, recurring business.
+              strategies grounded in business goals and user needs. Over the
+              past 1+ year, I&apos;ve also taken on leadership responsibilities
+              — partnering in pre-sales conversations and driving key design
+              decisions for client engagements. Beyond execution, I build
+              design practice — scaling AI-native workflows with tools like
+              Claude, and converting early leads and POCs into signed,
+              recurring business.
             </p>
 
             <div
