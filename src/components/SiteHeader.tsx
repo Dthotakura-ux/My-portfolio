@@ -3,12 +3,13 @@
 import Link from "next/link";
 import { useState } from "react";
 
-type PageKey = "home" | "about" | "resume" | "contact";
+type PageKey = "home" | "about" | "resume" | "ai-usage" | "contact";
 
 const LINKS: { key: PageKey; href: string; label: string }[] = [
   { key: "home", href: "/", label: "Home" },
   { key: "about", href: "/about", label: "About Me" },
   { key: "resume", href: "/resume", label: "Resume" },
+  { key: "ai-usage", href: "/ai-usage", label: "AI Usage" },
   { key: "contact", href: "/contact", label: "Contact" },
 ];
 
