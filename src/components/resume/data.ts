@@ -158,4 +158,18 @@ export const experience: {
       "Used AI tools to quickly explore design concepts and create interactive prototypes for stakeholder discussions.",
     ],
   },
+  {
+    company: "Huetint Software Pvt Ltd",
+    role: "Junior UX Designer",
+    period: "Jul 2016 — Aug 2018",
+    location: "Hyderabad",
+    tags: ["Web Applications", "Digital Products"],
+    bullets: [
+      "Designed user workflows and interfaces for web-based digital products.",
+      "Created wireframes, user flows, prototypes and visual designs based on business requirements.",
+      "Worked with senior designers and developers to translate concepts into implementable experiences.",
+      "Participated in usability validation and design iterations.",
+      "Built a strong foundation in interaction design, information architecture, visual design and user-centered design.",
+    ],
+  },
 ];

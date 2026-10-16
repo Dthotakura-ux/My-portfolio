@@ -71,6 +71,22 @@ const experience = [
       },
     ],
   },
+  {
+    company: "Huetint software Pvt Ltd",
+    role: "Jr Ux Designer",
+    period: "July 2016 - Aug 2018",
+    location: "Hyderabad",
+    points: [
+      {
+        title: "Creating Design systems:",
+        body: "Design becomes faster, more consistent, and more aligned with engineering. Teams stop reinventing the wheel, and the user experience becomes unified across every screen.",
+      },
+      {
+        title: "Domain & Platform Versatility:",
+        body: "I've also designed for multiple platforms like desktop web apps, responsive mobile-first systems, native mobile apps, and even internal tooling. This cross-platform experience taught me how to adapt design patterns to fit platform behaviours while keeping the experience seamless.",
+      },
+    ],
+  },
 ];
 
 export default function AboutPage() {
