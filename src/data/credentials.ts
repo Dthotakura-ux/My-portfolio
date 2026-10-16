@@ -58,14 +58,6 @@ export const companies = [
     boxClass: "h-[30px] w-[31px]",
     imgClass: "absolute h-full left-0 top-0 w-[655.73%] max-w-none",
   },
-  {
-    name: "Huetint Software Pvt Ltd",
-    role: "UI/UX Designer",
-    period: "2016 — 2018",
-    logo: "/images/image6.png",
-    boxClass: "size-[32px]",
-    imgClass: "absolute h-[100.3%] left-0 top-[-0.15%] w-[418.75%] max-w-none",
-  },
 ];
 
 export const skillGroups = [
