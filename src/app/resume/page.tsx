@@ -108,16 +108,16 @@ export default function ResumePage() {
             </div>
             <div className="flex items-center gap-3 text-white/80">
               <Icon name="phone" className="size-[15px] shrink-0 text-[#8fb4ff]" />
-              +91 9989554354 / 7670937716
+              +91 9989955434 / 7670937716
             </div>
             <a
-              href="https://uxdt.in/"
+              href="https://www.uxdt.in/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 text-white/80 transition-colors hover:text-white"
             >
               <Icon name="link" className="size-[15px] shrink-0 text-[#8fb4ff]" />
-              uxdt.in
+              www.uxdt.in
             </a>
           </div>
 
