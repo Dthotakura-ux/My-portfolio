@@ -42,7 +42,7 @@ export default function ContactPage() {
             </div>
             <div>
               <p className="text-[12px] font-semibold uppercase tracking-[0.14em] text-ink/45">Phone</p>
-              <p className="mt-2 text-[16px] text-ink/70">+91 9989554354 / 7670937716</p>
+              <p className="mt-2 text-[16px] text-ink/70">+91 9989955434 / 7670937716</p>
             </div>
             <div>
               <p className="text-[12px] font-semibold uppercase tracking-[0.14em] text-ink/45">Location</p>
