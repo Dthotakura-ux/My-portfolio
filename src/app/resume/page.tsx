@@ -67,13 +67,22 @@ export default function ResumePage() {
         <Link href="/" className="text-[13px] font-semibold uppercase tracking-[0.12em] text-[#0b1e3f] hover:opacity-70">
           ← Back to home
         </Link>
-        <button
-          type="button"
-          onClick={() => window.print()}
-          className="rounded-[8px] bg-[#0b1e3f] px-5 py-[10px] text-[13px] font-semibold text-white transition-opacity hover:opacity-85"
-        >
-          Print / Save as PDF
-        </button>
+        <div className="flex items-center gap-3">
+          <a
+            href="/Dileep-Thotakura-Resume.pdf"
+            download
+            className="rounded-[8px] border border-[#0b1e3f]/15 px-5 py-[10px] text-[13px] font-semibold text-[#0b1e3f] transition-opacity hover:opacity-70"
+          >
+            Download Resume
+          </a>
+          <button
+            type="button"
+            onClick={() => window.print()}
+            className="rounded-[8px] bg-[#0b1e3f] px-5 py-[10px] text-[13px] font-semibold text-white transition-opacity hover:opacity-85"
+          >
+            Print / Save as PDF
+          </button>
+        </div>
       </div>
 
       <div className="mx-auto flex max-w-[1050px] flex-col overflow-hidden rounded-[18px] bg-white shadow-2xl lg:flex-row print:max-w-none print:flex-row print:rounded-none print:shadow-none">
